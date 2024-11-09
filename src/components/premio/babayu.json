@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_premio_babayu",
+  "info": {
+    "displayName": "Babayu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "Medios": {
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos",
+          "audios"
+        ],
+        "type": "media",
+        "multiple": true
+      },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

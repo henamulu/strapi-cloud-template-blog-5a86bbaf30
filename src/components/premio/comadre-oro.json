@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_premio_comadre_oro",
+  "info": {
+    "displayName": "Comadre Oro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Medios": {
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos",
+          "audios"
+        ],
+        "type": "media",
+        "multiple": true
+      },
+    "recipient": {
+      "type": "string"
+    },
+    "description": {
+     "type": "blocks"
+    },
+    "candidatos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nombre.candidatos"
+    }
+  }
+} 

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_articles_articulos",
+  "info": {
+    "displayName": "Articulos"
+  },
+  "options": {},
+  "attributes": {
+    "Fuente": {
+      "type": "string"
+    },
+    "Fecha": {
+      "type": "date"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "URL2": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nuestra_fiestas",
+  "info": {
+    "singularName": "nuestra-fiesta",
+    "pluralName": "nuestra-fiestas",
+    "displayName": "Nuestra Fiesta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_premio_cancion",
+  "info": {
+    "displayName": "Canción 2024",
+    "description": "Canción libre"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+} 

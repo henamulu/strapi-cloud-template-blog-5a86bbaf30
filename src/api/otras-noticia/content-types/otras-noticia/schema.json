@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "otras_noticias",
+  "info": {
+    "singularName": "otras-noticia",
+    "pluralName": "otras-noticias",
+    "displayName": "OtrasNoticia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "date"
+    },
+    "fuente": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "blocks"
+    },
+    "autor": {
+      "type": "string"
+    }
+  }
+}

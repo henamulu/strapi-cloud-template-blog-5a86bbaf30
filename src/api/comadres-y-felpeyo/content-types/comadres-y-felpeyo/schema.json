@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comadres_y_felpeyos",
+  "info": {
+    "singularName": "comadres-y-felpeyo",
+    "pluralName": "comadres-y-felpeyos",
+    "displayName": "Comadres y Felpeyo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "year": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Premios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "premio.comadre-oro"
+    },
+    "Felpeyu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "premio.felpeyu"
+    },
+    "Babayu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "premio.babayu"
+    },
+    "Imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }, "cancion": {
+      "type": "component",
+      "component": "premio.cancion"
+    },
+    "noticias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "noticias.noticia-medio"
+    }
+  }
+}

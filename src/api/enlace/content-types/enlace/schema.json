@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enlaces",
+  "info": {
+    "singularName": "enlace",
+    "pluralName": "enlaces",
+    "displayName": "Enlace",
+    "description": "Collection of feminist links and resources"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

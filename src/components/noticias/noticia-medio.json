@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_noticias_medio",
+  "info": {
+    "displayName": "Noticia Medio",
+    "description": "Noticias publicadas en medios"
+  },
+  "options": {},
+  "attributes": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "fuente": {
+      "type": "string",
+      "required": true
+    },
+    "enlace": {
+      "type": "string",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+} 

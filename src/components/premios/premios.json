@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_premios_premios",
+  "info": {
+    "displayName": "Premios"
+  },
+  "options": {},
+  "attributes": {
+    "cancion": {
+      "type": "component",
+      "component": "premio.cancion"
+    },
+    "noticias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "noticias.noticia-medio"
+    }
+  }
+}

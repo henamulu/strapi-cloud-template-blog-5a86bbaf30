@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendas",
+  "info": {
+    "singularName": "agenda",
+    "pluralName": "agendas",
+    "displayName": "Agenda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": false
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Organizer": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Year": {
+      "type": "integer"
+    },
+    "ImagePath": {
+      "type": "string",
+      "description": "Path to image in HTML"
+    }
+  }
+}

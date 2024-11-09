@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pantalla_por_un_debates",
+  "info": {
+    "singularName": "pantalla-por-un-debate",
+    "pluralName": "pantalla-por-un-debates",
+    "displayName": "Pantalla Por un debate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Conteniedo": {
+      "type": "blocks"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

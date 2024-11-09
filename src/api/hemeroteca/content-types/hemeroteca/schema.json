@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hemerotecas",
+  "info": {
+    "singularName": "hemeroteca",
+    "pluralName": "hemerotecas",
+    "displayName": "Hemeroteca",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "date"
+    },
+    "fuente": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "autor": {
+      "type": "string"
+    }
+  }
+}

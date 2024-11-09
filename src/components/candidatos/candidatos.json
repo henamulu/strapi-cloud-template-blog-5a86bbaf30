@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_candidatos_candidatos",
+  "info": {
+    "displayName": "Candidatos"
+  },
+  "options": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "blocks"
+    },
+    "Imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Enlaces": {
+      "type": "string"
+    }
+  }
+}

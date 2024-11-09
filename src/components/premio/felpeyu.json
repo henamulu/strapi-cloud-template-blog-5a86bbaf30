@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_premio_felpeyu",
+  "info": {
+    "displayName": "Felpeyu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "recipient": {
+      "type": "string"
+    },
+    "Medios": {
+        "allowedTypes": [
+          "images",
+          "files",
+          "videos",
+          "audios"
+        ],
+        "type": "media",
+        "multiple": true
+      },
+    "description": {
+      "type": "blocks"
+    },
+    "candidatos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nombre.candidatos"
+    }
+  }
+}

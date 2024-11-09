@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_candidato_candidatos",
+  "info": {
+    "displayName": "Candidatos"
+  },
+  "options": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "blocks"
+    },
+    "Candidatos": {
+      "displayName": "Candidatos",
+      "type": "component",
+      "repeatable": true,
+      "component": "candidatos.candidatos"
+    }
+  }
+}

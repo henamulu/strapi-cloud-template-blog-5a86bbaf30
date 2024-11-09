@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carteles_fiestas",
+  "info": {
+    "singularName": "carteles-fiesta",
+    "pluralName": "carteles-fiestas",
+    "displayName": "CARTELES FIESTA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Diseno": {
+      "type": "string"
+    },
+    "Cartel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Year": {
+      "type": "date"
+    }
+  }
+}

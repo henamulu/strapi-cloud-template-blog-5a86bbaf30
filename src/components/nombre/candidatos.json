@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_nombre_candidatos",
+  "info": {
+    "displayName": "Candidatos"
+  },
+  "options": {},
+  "attributes": {
+    "Articulos": {
+      "displayName": "Articulos",
+      "type": "component",
+      "repeatable": true,
+      "component": "articles.articulos"
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Medios": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Videos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

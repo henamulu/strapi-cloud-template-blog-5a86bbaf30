@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/homes",
+      "handler": "api::home.home.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/homes/:id",
+      "handler": "api::home.home.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/homes",
+      "handler": "api::home.home.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/homes/:id",
+      "handler": "api::home.home.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/homes/:id",
+      "handler": "api::home.home.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
